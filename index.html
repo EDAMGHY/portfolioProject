@@ -227,20 +227,20 @@
                 </div>
                 <div class="column right">
                     <div class="text">Envoie moi un Message</div>
-                    <form class="contact-form" action="#" method="POST">
+                    <form class="contact-form" name="contact" method="POST" data-netfily="true">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" class="fullname" placeholder="Nom" required>
+                                <input type="text" class="fullname" name="name" placeholder="Nom" required>
                             </div>
                             <div class="field email">
-                                <input type="text" class="email-input" placeholder="Email" required>
+                                <input type="email" class="email-input" name="email" placeholder="Email" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" class="subject" placeholder="Objet" required>
+                            <input type="text" class="subject" name="objet" placeholder="Objet" required>
                         </div>
                         <div class="field textarea">
-                            <textarea class="message" cols="30" rows="10" required placeholder="Message.."></textarea>
+                            <textarea class="message" cols="30" name="message" rows="10" required placeholder="Message.."></textarea>
                         </div>
                         <div class="button-area">
                             <button class="send-msg" type="submit" name="send">Envoyer Message</button>
@@ -253,7 +253,7 @@
 
     <!-- footer section start -->
     <footer>
-        <span>Created By <a href="mailto:damriabdellah@gmail.com">DAMRI ABDELLAH</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
+        <span>Created By <a href="#">DAMRI ABDELLAH</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
     </footer>
 
     <script src="script.js"></script>
